@@ -7,7 +7,7 @@ A simple timer application  on the web using streamlit module of python
 
 ## To install dependencies:
 ```
-python -m pip install requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## To run:
