@@ -14,3 +14,7 @@ python -m pip install requirements.txt
 ```
 streamlit run main.py
 ```
+
+## TO-Do:
+- [ ] Add more driver support for sound playback
+- [ ] To increase efficiency of progress completion algorithm
