@@ -24,13 +24,13 @@ def get_time():
         minutes+= hours*60
         seconds+= minutes*60
         bar = st.progress(0)
-        step_val = int(seconds)//100
+        step_val = 100//int(seconds)
         val = 0
         
         for i in range(seconds):
             val+=step_val
             time.sleep(1)
-            #bar.progress(val)
+            bar.progress(val)
         else:
             is_completed = True
         
